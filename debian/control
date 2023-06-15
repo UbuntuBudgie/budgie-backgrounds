@@ -1,0 +1,28 @@
+Source: budgie-backgrounds
+Section: misc
+Priority: optional
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Homepage: https://github.com/buddiesofbudgie/budgie-backgrounds
+Build-Depends:
+ debhelper (>= 13),
+ debhelper-compat (= 13),
+ meson,
+ graphicsmagick-imagemagick-compat,
+ jhead
+Standards-Version: 4.6.2
+Vcs-Browser: https://github.com/ubuntubudgie/budgie-backgrounds/tree/debian
+Vcs-Git: https://github.com/ubuntubudgie/budgie-backgrounds.git -b debian
+Rules-Requires-Root: no
+
+Package: budgie-backgrounds
+Architecture: all
+Depends: ${misc:Depends},
+Description: Default set of background images for the Budgie Desktop
+ Budgie-Desktop is a GTK+ based desktop environment which focuses on
+ simplicity and elegance.  It provides a traditional desktop metaphor
+ based interface utilising customisable panel based menu driven system.
+ Budgie-Desktop is written from scratch utilising many GNOME based
+ sub-systems such as GNOME-Session and Mutter.
+ .
+ This package provides a set of backgrounds that complement and
+ showcases the budgie-desktop.
