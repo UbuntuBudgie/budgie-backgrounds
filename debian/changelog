@@ -1,3 +1,10 @@
+budgie-backgrounds (1.0-2) unstable; urgency=medium
+
+  * Source upload to resolve migration violation error due to
+    binary-only upload
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 11 Sep 2023 22:37:35 +0100
+
 budgie-backgrounds (1.0-1) unstable; urgency=medium
 
   * Initial Release (Closes: #1037965)
