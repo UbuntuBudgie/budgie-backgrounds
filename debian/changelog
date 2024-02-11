@@ -1,3 +1,11 @@
+budgie-backgrounds (3.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Packaging Changes
+    - d/copyright Bump copyright year
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 11 Feb 2024 13:49:47 +0000
+
 budgie-backgrounds (1.0-2) unstable; urgency=medium
 
   * Source upload to resolve migration violation error due to
