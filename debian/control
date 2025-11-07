@@ -7,7 +7,7 @@ Build-Depends:
  debhelper (>= 13),
  debhelper-compat (= 13),
  meson,
- graphicsmagick-imagemagick-compat,
+ imagemagick,
  jhead
 Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/ubuntubudgie/budgie-backgrounds/tree/debian
