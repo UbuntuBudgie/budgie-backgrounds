@@ -1,3 +1,14 @@
+budgie-backgrounds (4.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - backgrounds are now in jxl format
+    - do not depend on mogrify for optimisation (Closes: #1151380)
+  * Packaging Changes
+    d/upstream - update to the new upstream signing key
+    d/control - add B/D on libjxl-tools
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 Sep 2026 18:38:48 +0100
+
 budgie-backgrounds (3.0-2) unstable; urgency=medium
 
   [ James Lu ]
