@@ -4,4 +4,10 @@
 	dh $@
 
 override_dh_auto_configure:
-	dh_auto_configure -- -Dimage_optimizer=cjxl
+	:
+
+override_dh_auto_build:
+	:
+
+override_dh_auto_test:
+	:

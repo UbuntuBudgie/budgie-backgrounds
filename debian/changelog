@@ -1,3 +1,21 @@
+budgie-backgrounds (4.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - use the upstream jxl tarball to overcome the reproducibility issues
+      of using the optimisation tools
+    - drop existing patches since the revised package no longer builds
+      wallpapers
+  * Packaging Changes
+    d/control - drop most B/D since we are now just installing precompiled
+      files
+    d/control - bump StandardsVersion; no additional changes required
+    d/watch - update for precompile tarball download location
+    d/install - install the tarball files in the standard backgrounds
+      locations
+    d/copyright - bump copyright years
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Oct 2026 20:30:49 +0000
+
 budgie-backgrounds (4.1-1) unstable; urgency=medium
 
   * New upstream release
